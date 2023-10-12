@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-web-hw09"
+version = "0.1.0"
+description = ""
+authors = ["FTKV <mthkvv@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mongoengine = "^0.27.0"
+redis = "^5.0.1"
+redis-lru = "^0.1.2"
+bs4 = "^0.0.1"
+requests = "^2.31.0"
+scrapy = "^2.11.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
